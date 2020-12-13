@@ -53,12 +53,12 @@ function quantityDownOne() {
 function toggleLeftImage() {
     img.src = './images/chair_grey.jpg';
     smallPinkImg.style.border = 'none';
-    smallGreyImg.style.border = '2px solid #000';
+    smallGreyImg.style.border = '2px solid #250858';
 }
 function toggleRightImage() {
     img.src = './images/chair_pink.jpg';
     smallGreyImg.style.border = 'none';
-    smallPinkImg.style.border = '2px solid #000';
+    smallPinkImg.style.border = '2px solid #250858';
 }
 
 // On Heart Button Click

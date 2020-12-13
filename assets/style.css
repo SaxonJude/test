@@ -99,7 +99,7 @@ main .main_container .image_section .image_secondary img:hover {
 }
 
 main .main_container .image_section .image_secondary img:first-of-type {
-  border: 2px solid #000;
+  border: 2px solid #250858;
 }
 
 main .main_container .option_section {
@@ -474,7 +474,7 @@ main .main_container .option_section .cartsection_benefits {
 main .main_container .option_section .cartsection_benefits ul {
   list-style-type: none;
   padding: 0;
-  margin: 1rem 0.5rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 main .main_container .option_section .cartsection_socials {

@@ -43,7 +43,7 @@ main {
           }
         }
         img:first-of-type {
-          border: 2px solid #000;
+          border: 2px solid $brand_purple;
         }
       }
     }
@@ -277,7 +277,7 @@ main {
         ul {
           list-style-type: none;
           padding: 0;
-          margin: 1rem 0.5rem 1rem 1rem;
+          margin: 1rem 1rem 1rem 1rem;
         }
       }
 

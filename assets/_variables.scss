@@ -1,8 +1,9 @@
 $grey: rgb(209, 209, 209);
 $brand_purple: #250858;
 
+// Custom FlexBox mixin
 @mixin flex-custom($d, $justify, $align) {
-  display: flex;
+  display: flex !important;
   flex-direction: $d;
   justify-content: $justify;
   align-items: $align;

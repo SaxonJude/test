@@ -1,0 +1,11 @@
+@import "./variables";
+
+.nav_bar {
+  @include flex-custom(row, center, center);
+  height: 90px;
+  width: 100%;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.295);
+  img {
+    width: 120px;
+  }
+}

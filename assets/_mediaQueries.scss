@@ -4,8 +4,17 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
 
-@media only screen and (min-width: 920px) {
-  //   main {
-  //     flex-direction: row;
-  //   }
+@media only screen and (min-width: 900px) {
+  main {
+    height: 80em !important;
+    .main_container {
+      flex-direction: row !important;
+      .option_section {
+        max-width: 360px;
+      }
+      .image_section {
+        max-width: 500px !important;
+      }
+    }
+  }
 }
